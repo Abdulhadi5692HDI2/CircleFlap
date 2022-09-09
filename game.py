@@ -1,5 +1,5 @@
 # FlappyCircle
-# Sprites in same dir
+# Sprites in data/gfx
 import os
 from time import sleep
 import pygame
