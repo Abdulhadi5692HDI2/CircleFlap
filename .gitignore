@@ -1,3 +1,13 @@
+# Image files
+*.png
+*.bmp
+*.gif
+
+# Sound files
+*.ogg
+*.wav
+*.mp3
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
