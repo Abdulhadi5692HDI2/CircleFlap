@@ -12,7 +12,7 @@ After press Win+R then type cmd after type `pip install pygame`
 
 Then download a zip file of the repo [can be found in the releases menu] then extract
 
-Either open the file `flappybird.py` (no fullscreen) or `flappybird_fullscreen.py` (opens in fullscreen)
+open the py file
 
 Enjoy the game.
 
