@@ -1,7 +1,6 @@
 # FlappyCircle
 # Sprites in same dir
 import sys
-from time import sleep
 import pygame
 import random
 
