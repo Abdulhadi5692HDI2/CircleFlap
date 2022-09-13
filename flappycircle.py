@@ -1,4 +1,4 @@
-# FlappyCircle
+# CircleFlap
 # Sprites in same dir
 import sys
 import pygame
@@ -21,7 +21,7 @@ pygame.mixer.init()
 # Initilaize pygame
 pygame.init()
 
-pygame.display.set_caption("Flappy Circle v1")
+pygame.display.set_caption("Circle Flap v2")
 font_name = pygame.font.match_font('arial')
 def mktext(surf, text, size, x, y):
     font = pygame.font.Font(font_name, size)
@@ -137,9 +137,10 @@ screen = pygame.display.set_mode(
 
 def show_title_scr():
     screen.fill((71, 139, 191))
-    mktext(screen, "Flappy Circle!!", 64, SCR_WIDTH / 2, SCR_HEIGHT / 4)
+    mktext(screen, "CircleFlap!!", 64, SCR_WIDTH / 2, SCR_HEIGHT / 4)
     mktext(screen, "Use the arrow keys [up, down, left, right] to move! More coming soon", 22, SCR_WIDTH / 2, SCR_HEIGHT / 2)
     mktext(screen, "Press a key to start", 18, SCR_WIDTH / 2, SCR_HEIGHT * 3 / 4)
+    mktext(screen, "v2", 16, SCR_WIDTH / 2, SCR_HEIGHT * 2 / 5)
     pygame.display.flip()
     waitingForKey = True
     while waitingForKey:
