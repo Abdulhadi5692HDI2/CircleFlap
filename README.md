@@ -1,4 +1,4 @@
-# FlappyCircle
+# CircleFLap
 A flappy bird clone in Pygame.
 
 The sprites will look bad because i made them in Mspaint.
